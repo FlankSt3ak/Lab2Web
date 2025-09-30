@@ -8,7 +8,7 @@ Dokumen HTML yang terdiri dari struktur dasar HTML5 dengan elemen `<head>` yang 
 ## 2. Mendeklarasikan CSS Internal
 CSS internal yang diletakkan di dalam tag `<style>` pada bagian `<head>` dokumen HTML. Aturannya meliputi: seluruh elemen dalam `<body>` menggunakan font Open Sans dengan fallback sans-serif; elemen `<header>` diberi tinggi minimum 80px dan garis bawah berwarna biru (#77CCEF); elemen `<h1>` diberi ukuran font 24px, warna teks biru tua (#0F189F), rata tengah, serta jarak dalam (padding) 20px atas-bawah dan 10px kiri-kanan; sedangkan elemen `<i>` yang berada di dalam `<h1>` diberi warna abu-abu (#6d6a6b). Dengan aturan ini, tampilan halaman menjadi lebih rapi, tipografi konsisten, dan judul lebih menonjol dengan format terpusat.
 
-![SS](ScreenShoot_Lab2/Deklarassi_css_internal.png)
+![SS](ScreenShoot_Lab2/Deklarasi_css_internal.png)
 
 ## 3. Menambahkan Inline CSS
 penggunaan Inline CSS, yaitu menambahkan deklarasi CSS langsung di dalam tag HTML menggunakan atribut style. Deklarasi ini membuat teks paragraf `<p>` ditampilkan rata tengah (text-align: center) dengan warna teks abu muda kebiruan (#ccd8e4). Inline CSS hanya berlaku untuk elemen yang diberi atribut style tersebut, sehingga lebih spesifik, namun biasanya kurang disarankan untuk proyek besar karena sulit dikelola dibanding CSS internal atau CSS eksternal.
