@@ -31,13 +31,13 @@ CSS eksternal yang digunakan untuk mengatur tampilan elemen `<nav>` dan `<a>` di
 # Pertanyaan dan Tugas
 
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
-jawaban: Sudah
+\n jawaban: Sudah
 2. Apa perbedaan pendeklarasian CSS elemen `h1 {..}` dengan `#intro h1 {..}` berikan penjelasannya!
-Jawaban:
+\n Jawaban: \n
 - `h1 {..}` → berlaku untuk semua elemen `<h1>` di seluruh halaman.
 - `#intro h1` {..} → hanya berlaku untuk elemen `<h1>` yang berada di dalam elemen dengan id="intro".
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
-Jawaban:
+\n Jawaban: \n
 Urutan yang lebih kuat : Inline > Internal > External (Berdasarkan CSS Specify & Cascade) Contoh:
 ```HTML
 <head>
@@ -54,8 +54,8 @@ Urutan yang lebih kuat : Inline > Internal > External (Berdasarkan CSS Specify &
 Hasil: Teks akan berwarna merah karena inline CSS lebih kuat.
 
 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
-Jawaban: ID lebih kuat daripada Class (spesifisitas CSS). Jika ada konflik, aturan dengan ID yang dipakai.
-Contoh:
+\n Jawaban: ID lebih kuat daripada Class (spesifisitas CSS). Jika ada konflik, aturan dengan ID yang dipakai. \n
+Contoh: \n
 ```HTML
 <p id="paragraf-1" class="text-paragraf">Halo dunia</p>
 ```
