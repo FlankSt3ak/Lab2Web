@@ -32,8 +32,9 @@ CSS eksternal yang digunakan untuk mengatur tampilan elemen `<nav>` dan `<a>` di
 
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.  
 jawaban: Sudah
+
 3. Apa perbedaan pendeklarasian CSS elemen `h1 {..}` dengan `#intro h1 {..}` berikan penjelasannya!  
-Jawaban:  
+Jawaban:
 - `h1 {..}` → berlaku untuk semua elemen `<h1>` di seluruh halaman.
 - `#intro h1` {..} → hanya berlaku untuk elemen `<h1>` yang berada di dalam elemen dengan id="intro".
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!  
